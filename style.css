@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    
+}
+
+main{
+    background: url(/assets/vitaly-sacred-p-IgjxEMilY-unsplash.jpg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.form-container{
+    text-align: center;
+    background-color: #35425970;
+    color: #3aa8df;
+    width: 50%;
+    height: 90%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+} 
+
+h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+
+select{
+    text-align: left;
+    width: 90%;
+    border: none;
+    color: #54BAB9;
+    background-color: #354259;
+    padding: .5rem 1rem;
+    margin: 1rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.amd-option-data, .intel-option-data{
+    display: none;
+}
+
+.show{
+    display: block;
+}
